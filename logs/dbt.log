@@ -1,0 +1,37 @@
+==================== 2026-08-13T16:24:08.425784Z | 019ffbf0-29de-7332-ad54-e6fc2f5ba65b ====================
+16:24:08.428518 [info ]: dbt-fusion 2.0.0-preview.183
+16:24:08.432440 [info ]: Started loading project
+16:24:08.447596 [info ]: Loading ~/.dbt/profiles.yml
+16:24:08.449632 [info ]: Finished loading project [  0.02s]
+16:24:08.450340 [error]: [IoError (dbt1001)]: Profile 'default' not found in profiles.yml
+  --> dbt_project.yml:10:10
+16:24:08.640783 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [214ms]
+==================== 2026-08-13T16:24:08.673085Z | 019ffbf0-2adf-7073-ab66-5bccd343aaed ====================
+16:24:08.673133 [info ]: dbt-fusion 2.0.0-preview.183
+16:24:08.984835 [info ]: 
+==================== Execution Summary =====================
+Finished 'deps' successfully [311ms]
+{"data":{"log_version":3,"version":"=2.0.0-preview.183"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019ffbf0-2c40-7022-9b22-b575091bd45d","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.183","name":"MainReportVersion","pid":63286,"thread":"tokio-rt-worker","ts":"2026-08-13T16:24:09.026183Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"/Users/sean.odriscoll/.local/bin/dbt parse --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019ffbf0-2c40-7022-9b22-b575091bd45d","level":"debug","msg":"running dbt-fusion with arguments {\"command\":\"parse\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false}","name":"MainReportArgs","pid":63286,"thread":"tokio-rt-worker","ts":"2026-08-13T16:24:09.026195Z"}}
+{"data":{"msg":"dbt-fusion 2.0.0-preview.183"},"info":{"category":"","code":"","extra":{},"invocation_id":"019ffbf0-2c40-7022-9b22-b575091bd45d","level":"info","msg":"dbt-fusion 2.0.0-preview.183","name":"Generic","pid":63286,"thread":"tokio-rt-worker","ts":"2026-08-13T16:24:09.026294Z"}}
+{"data":{"msg":"Loading ~/.dbt/profiles.yml"},"info":{"category":"","code":"","extra":{},"invocation_id":"019ffbf0-2c40-7022-9b22-b575091bd45d","level":"info","msg":"Loading ~/.dbt/profiles.yml","name":"Generic","pid":63286,"thread":"tokio-rt-worker","ts":"2026-08-13T16:24:09.027149Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019ffbf0-2c40-7022-9b22-b575091bd45d","level":"error","msg":"[error] [IoError (dbt1001)]: Profile 'default' not found in profiles.yml\n  --> dbt_project.yml:10:10","name":"Generic","pid":63286,"thread":"tokio-rt-worker","ts":"2026-08-13T16:24:09.027622Z"}}
+{"data":{"completed_at":"2026-08-13T16:24:09.233091Z","elapsed":0.2075270116329193,"success":false},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019ffbf0-2c40-7022-9b22-b575091bd45d","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'parse' with 1 error [207ms]","name":"CommandCompleted","pid":63286,"thread":"tokio-rt-worker","ts":"2026-08-13T16:24:09.234218Z"}}
+==================== 2026-08-13T16:24:10.623437Z | 019ffbf0-327e-73d0-a9c2-60e72f474489 ====================
+16:24:10.623509 [info ]: dbt-fusion 2.0.0-preview.183
+16:24:10.623636 [info ]: Started loading project
+16:24:10.624349 [info ]: Loading ~/.dbt/profiles.yml
+16:24:10.624704 [info ]: Finished loading project [  0.00s]
+16:24:10.624817 [error]: [IoError (dbt1001)]: Profile 'default' not found in profiles.yml
+  --> dbt_project.yml:10:10
+16:24:10.833697 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [210ms]
+{"data":{"log_version":3,"version":"=2.0.0-preview.183"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019ffbf0-336c-76c2-a159-fb7f308cf328","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.183","name":"MainReportVersion","pid":63312,"thread":"tokio-rt-worker","ts":"2026-08-13T16:24:10.861252Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"/Users/sean.odriscoll/.local/bin/dbt parse --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019ffbf0-336c-76c2-a159-fb7f308cf328","level":"debug","msg":"running dbt-fusion with arguments {\"command\":\"parse\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false}","name":"MainReportArgs","pid":63312,"thread":"tokio-rt-worker","ts":"2026-08-13T16:24:10.861262Z"}}
+{"data":{"msg":"dbt-fusion 2.0.0-preview.183"},"info":{"category":"","code":"","extra":{},"invocation_id":"019ffbf0-336c-76c2-a159-fb7f308cf328","level":"info","msg":"dbt-fusion 2.0.0-preview.183","name":"Generic","pid":63312,"thread":"tokio-rt-worker","ts":"2026-08-13T16:24:10.861322Z"}}
+{"data":{"msg":"Loading ~/.dbt/profiles.yml"},"info":{"category":"","code":"","extra":{},"invocation_id":"019ffbf0-336c-76c2-a159-fb7f308cf328","level":"info","msg":"Loading ~/.dbt/profiles.yml","name":"Generic","pid":63312,"thread":"tokio-rt-worker","ts":"2026-08-13T16:24:10.861957Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019ffbf0-336c-76c2-a159-fb7f308cf328","level":"error","msg":"[error] [IoError (dbt1001)]: Profile 'default' not found in profiles.yml\n  --> dbt_project.yml:10:10","name":"Generic","pid":63312,"thread":"tokio-rt-worker","ts":"2026-08-13T16:24:10.862359Z"}}
+{"data":{"completed_at":"2026-08-13T16:24:11.053475Z","elapsed":0.1922920048236847,"success":false},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019ffbf0-336c-76c2-a159-fb7f308cf328","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'parse' with 1 error [192ms]","name":"CommandCompleted","pid":63312,"thread":"tokio-rt-worker","ts":"2026-08-13T16:24:11.053533Z"}}
